@@ -77,14 +77,24 @@ class BarCodeGenerator extends Component {
             className="col-md-6 col-sm-6 col-xs-6 col-lg-6"
             style={{ textAlign: "center" }}
           >
-            <Barcode value="21797203" displayValue={false} format="CODE39" />
+            <Barcode
+              value="21797203"
+              displayValue={false}
+              format="CODE39"
+              height={50}
+            />
           </div>
 
           <div
             className="col-md-6 col-sm-6 col-xs-6 col-lg-6"
             style={{ textAlign: "center" }}
           >
-            <Barcode value="21797203" displayValue={false} format="CODE39" />
+            <Barcode
+              value="21797203"
+              displayValue={false}
+              format="CODE39"
+              height={50}
+            />
           </div>
         </div>
         <div>
