@@ -13,7 +13,11 @@ class BarCodeGenerator extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid" id="print">
+        <div
+          className="container-fluid"
+          id="print"
+          style={{ margin: "0 2% 0 2%" }}
+        >
           <div className="row" style={{ marginTop: "2%" }}>
             <p>MUM</p>
           </div>
