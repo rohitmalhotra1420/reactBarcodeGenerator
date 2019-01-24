@@ -14,7 +14,7 @@ class BarCodeGenerator extends Component {
     return (
       <div>
         <div className="container-fluid" id="print">
-          <div className="row">
+          <div className="row" style={{ marginTop: "2%" }}>
             <p>MUM</p>
           </div>
           <div className="row">
@@ -90,6 +90,7 @@ class BarCodeGenerator extends Component {
                 displayValue={false}
                 format="CODE39"
                 height={40}
+                width={1.2}
               />
             </div>
 
@@ -102,6 +103,7 @@ class BarCodeGenerator extends Component {
                 displayValue={false}
                 format="CODE39"
                 height={40}
+                width={1.2}
               />
             </div>
           </div>
