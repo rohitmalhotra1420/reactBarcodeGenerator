@@ -9,8 +9,8 @@ body {
   font-size: 20px;
 }
 @media print {
-  body {
-    transform: scale(0.5);
+  #parent {
+    transform: scale(0.4, 0.4);
   }
 }
 code {
