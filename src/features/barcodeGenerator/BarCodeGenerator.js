@@ -19,9 +19,9 @@ class BarCodeGenerator extends Component {
           style={{ margin: "0 2% 0 2%" }}
         >
           <div className="row" style={{ marginTop: "2%" }}>
-            <p>MUM</p>
+            <p style={{ marginLeft: "40px" }}>MUM</p>
           </div>
-          <div className="row">
+          <div className="row" style={{ paddingLeft: "15px" }}>
             <div className="col-md-6 col-sm-6 col-xs-6" />
             <div className="col-md-6 col-sm-6 col-xs-6">
               <div className="col-md-3 col-sm-3 col-xs-3 col-lg-3" />
@@ -37,7 +37,7 @@ class BarCodeGenerator extends Component {
             </div>
           </div>
           <div>SHRI RAJ A.NAGAR</div>
-          <div className="row">
+          <div className="row" style={{ paddingLeft: "15px" }}>
             <div className="col-md-1 col-sm-1 col-xs-1 col-lg-1">
               <p> cr39</p>
             </div>
@@ -63,7 +63,7 @@ class BarCodeGenerator extends Component {
               <p>Aqua</p>
             </div>
           </div>
-          <div className="row">
+          <div className="row" style={{ paddingLeft: "15px" }}>
             <div className="col-md-1 col-sm-1 col-xs-1 col-lg-1">
               <p> 70</p>
             </div>
