@@ -10,7 +10,7 @@ body {
 }
 @media print {
   #parent {
-    transform: scale(0.4, 0.4);
+    transform: scale(0.3, 0.3);
   }
 }
 code {
