@@ -89,7 +89,7 @@ class BarCodeGenerator extends Component {
                 value="21797203"
                 displayValue={false}
                 format="CODE39"
-                height={50}
+                height={40}
               />
             </div>
 
@@ -101,7 +101,7 @@ class BarCodeGenerator extends Component {
                 value="21797203"
                 displayValue={false}
                 format="CODE39"
-                height={50}
+                height={40}
               />
             </div>
           </div>
